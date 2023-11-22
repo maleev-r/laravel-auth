@@ -1,0 +1,25 @@
+{
+    "name": "lucky-romka/laravel-auth",
+    "description": "Laravel package blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Maleev",
+            "email": "maleev4you@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LuckyRomka\\LaravelAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuckyRomka\\LaravelAuth\\LaravelAuthServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
